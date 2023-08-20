@@ -1,20 +1,20 @@
 ### GET ALL PRODUCTS
-GET http://localhost:4000/api/products HTTP/1.1
+GET http://localhost:8080/api/products HTTP/1.1
 
 ### GET SINGLE PRODUCT
-GET http://localhost:4000/api/products/60e0102521438724ac4638f4 HTTP/1.1
+GET http://localhost:8080/api/products/60e0102521438724ac4638f4 HTTP/1.1
 
 ### ADD ITEM
-POST http://localhost:4000/api/products HTTP/1.1
+POST http://localhost:8080/api/products HTTP/1.1
 Content-Type: application/json
 
 
 
 ### DELETE ITEM
-DELETE http://localhost:4000/api/products/60e00f8e21438724ac4638ef HTTP/1.1
+DELETE http://localhost:8080/api/products/60e00f8e21438724ac4638ef HTTP/1.1
 
 ### UPDATE ITEM
-PUT http://localhost:4000/api/products/60e00f8e21438724ac4638ef HTTP/1.1
+PUT http://localhost:8080/api/products/60e00f8e21438724ac4638ef HTTP/1.1
 Content-Type: application/json
 
 {
